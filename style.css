@@ -1,8 +1,12 @@
 /*
-Theme Name: Fanarch
-Version: 1.0
-Description: Fanarch Theme
-Template: Upvote
+ Theme Name:   Fanarch
+ Theme URI:    http:/fanarch.com
+ Description:  Fanarch Theme
+ Author:       Sam Solomon
+ Author URI:   http://solomon.io
+ Template: upvote
+ Version:      1.0.0
+ Text Domain:  signal-tower
 */
 
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
