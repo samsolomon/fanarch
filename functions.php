@@ -26,7 +26,7 @@ function theme_slug_fonts_url() {
         $font_families = array();      
  
         if ( 'off' !== $source_sans_pro ) {
-            $font_families[] = 'Source Sans Pro:700italic,400,800,600';
+            $font_families[] = 'Source Sans Pro:700italic,400,700,600,300';
         }
  
         $query_args = array(

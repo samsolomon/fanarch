@@ -15,7 +15,7 @@ if ( empty ( $user_votes ) ) $user_votes = array();
 		<h2>
 			<a href="<?php echo $url ? esc_url( $url ) : get_permalink(); ?>"><?php the_title(); ?></a>
 			<?php if ( $url ): ?>
-				<span class="post-url">(<?php echo preg_replace( '/^www\./', '', parse_url( $url, PHP_URL_HOST ) ); ?>)</span>
+				<span class="post-url"><?php echo preg_replace( '/^www\./', '', parse_url( $url, PHP_URL_HOST ) ); ?></span>
 			<?php endif; ?>
 		</h2>
 		<p class="byline"><?php
