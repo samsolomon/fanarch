@@ -281,6 +281,7 @@
 	<?php do_action( 'bp_after_register_page' ); ?>
 
 </div>
+</div>
 
 <script type="text/javascript">
 	jQuery(document).ready( function() {
