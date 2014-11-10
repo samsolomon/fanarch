@@ -2,7 +2,7 @@
 
 <div id="content">
 	<div class="row">
-		<div class="col-xs-6">
+		<div class="col-sm-6">
 		<h2>Login</h2>
 		<form role="form" method="post" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>">
 			<div class="form-group">
@@ -15,14 +15,17 @@
 				<input type="password" class="form-control" id="password" placeholder="Password" name="pwd">
 			</div>
 
-			<button type="submit" class="btn btn-default">Login</button> <a href="<?php echo get_permalink( upvote_theme_options( 'forgot-password-page' ) ); ?>" class="forgot">Forgot Password?</a>
+			<button type="submit" class="btn btn-default">Login</button> 
+			<br>
+			<br>
+			<a href="<?php echo get_permalink( upvote_theme_options( 'forgot-password-page' ) ); ?>" class="forgot">Forgot Password?</a>
 		</form>
 	</div>
 
 
 
 		<?php do_action( 'bp_before_register_page' ); ?>
-	<div class="col-xs-6">
+	<div class="col-sm-6">
 		<?php if ( 'request-details' == bp_get_current_signup_step() ): ?>
 			<h2>Create a New Account</h2>
 		<?php endif; ?>
