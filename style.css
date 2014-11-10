@@ -9,7 +9,7 @@ Template: Upvote
 *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 
 html { background: #fff; font: normal 1em/1.5, sans-serif; color: #333; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; text-rendering: optimizeLegibility; }
-body { max-width: 64em; margin: 0 auto; padding: 6em 1.5em; font-family: "source sans pro"; font-size: 18px;}
+body { max-width: 64em; margin: 0 auto; padding: 6em 1em; font-family: "source sans pro"; font-size: 18px;}
 
 article, aside, figure, figcaption, footer, header, main, nav, section { display: block; }
 h1, h2, h3, h4, p, ul, ol, dl, pre, address, table, form, hr, figure, audio, video { margin-bottom: 1.5em; }
@@ -56,3 +56,29 @@ dl {  }
 dt { font-weight: bold; }
 dd {  }
 dd + dt, dd + dd { margin-top: 1.5em; }
+
+/* FORMS
+------------------------------------------------------------------------------------------------ */
+
+
+
+
+/* STRUCTURE
+------------------------------------------------------------------------------------------------ */
+.container {max-width: 768px;}
+
+/* HELPER CLASSES
+------------------------------------------------------------------------------------------------ */
+
+.left { float: left !important; }
+.right { float: right !important; }
+.normal { font-weight: normal !important; }
+
+
+
+
+
+
+
+
+
