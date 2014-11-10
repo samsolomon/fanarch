@@ -13,7 +13,7 @@
 *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 
 html { background: #fff; font: normal 1em/1.5, sans-serif; color: #333; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; text-rendering: optimizeLegibility; }
-body { max-width: 64em; margin: 0 auto; padding: 6em 1em; font-family: "source sans pro"; font-size: 18px;}
+body { max-width: 64em; margin: 0 auto; padding: 6em 1em; font-family: "Source Sans Pro"; font-size: 18px;}
 
 article, aside, figure, figcaption, footer, header, main, nav, section { display: block; }
 h1, h2, h3, h4, p, ul, ol, dl, pre, address, table, form, hr, figure, audio, video { margin-bottom: 1.5em; }
@@ -22,8 +22,8 @@ h1, h2, h3, h4, p, ul, ol, dl, pre, address, table, form, hr, figure, audio, vid
 ------------------------------------------------------------------------------------------------ */
 
 h1 { font-weight: bold; font-size: 3em; line-height: 1.125; margin-bottom: .5em; }
-h2 { font-weight: bold; font-size: 2em; line-height: 1.25; margin-bottom: .75em; }
-h3 { font-weight: bold; font-size: 1.5em; line-height: 1.25; margin-bottom: 1em; }
+h2 { font-weight: bold; font-size: 1.25em; line-height: 1.25; margin-bottom: .75em; }
+h3 { font-weight: bold; font-size: 1.1em; line-height: 1.25; margin-bottom: 1em; }
 h4 { font-weight: bold; font-size: 1em; }
 
 a, :focus { outline: 0; }
@@ -70,6 +70,8 @@ dd + dt, dd + dd { margin-top: 1.5em; }
 /* STRUCTURE
 ------------------------------------------------------------------------------------------------ */
 .container {max-width: 768px;}
+
+.vote {float: left; margin-right: 5px;}
 
 /* HELPER CLASSES
 ------------------------------------------------------------------------------------------------ */

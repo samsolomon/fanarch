@@ -11,13 +11,13 @@ if ( empty ( $user_votes ) ) $user_votes = array();
 			<a class="upvote-ajax" href="<?php echo upvote_get_vote_url( get_the_ID() ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/up.png" alt="Upvote" /></a>
 		<?php endif; ?>
 	</div> <!-- end vote -->
-	<div>
-		<p>
+	<div class="content">
+		<h2>
 			<a href="<?php echo $url ? esc_url( $url ) : get_permalink(); ?>"><?php the_title(); ?></a>
 			<?php if ( $url ): ?>
 				<span class="post-url">(<?php echo preg_replace( '/^www\./', '', parse_url( $url, PHP_URL_HOST ) ); ?>)</span>
 			<?php endif; ?>
-		</p>
+		</h2>
 		<p class="byline"><?php
 			printf(
 				'%d points by %s %s ago | %s',
