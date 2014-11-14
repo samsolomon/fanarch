@@ -13,10 +13,10 @@
 *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 
 html { background: #fff; font: normal 1em/1.5, sans-serif; color: #333; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; height: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; text-rendering: optimizeLegibility; }
-body { max-width: 64em; margin: 0 auto; padding: 6em 1em; font-family: "Source Sans Pro"; font-size: 18px;}
+body { max-width: 64em; margin: 0 auto; padding: 6em 1em; font-family: "Chaparral Pro", georgia, serif; font-size: 18px;}
 
 article, aside, figure, figcaption, footer, header, main, nav, section { display: block; }
-h1, h2, h3, h4, p, ul, ol, dl, address, table, form, hr, figure, audio, video { margin-bottom: 1.5em; font-family: "Source Sans Pro";}
+h1, h2, h3, h4, p, ul, ol, dl, address, table, form, hr, figure, audio, video { margin-bottom: 1.5em; font-family: "Chaparral Pro", georgia, serif;}
 
 /* TYPOGRAPHY
 ------------------------------------------------------------------------------------------------ */
@@ -28,10 +28,10 @@ h4 { font-weight: bold; font-size: 1em; }
 
 a, :focus { outline: 0; }
 
-a { color: #07f; text-decoration: none; }
-a:visited { color: #07f; text-decoration: none; }
-a:hover { color: #07f; text-decoration: underline; }
-a:active { color: #07f; text-decoration: underline; }
+a { color: #222; text-decoration: none; }
+a:visited { color: #222; text-decoration: none; }
+a:hover { color: #222; text-decoration: underline; }
+a:active { color: #222; text-decoration: underline; }
 
 a img { border: 0 none; }
 
